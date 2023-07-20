@@ -53,12 +53,14 @@ header {
     flex-direction: row-reverse;
     height: auto;
     font-family:  'Kiwi Maru', cursive, serif;
+    
   }
   
 section {
   background: #EEE;
   flex: 3;
   padding: 30px;
+  position: relative;
 }
 
 article {
@@ -141,13 +143,11 @@ footer p {
 }
 
 article img {
-  mix-blend-mode: normal;
-	position: absolute;
-	width: 200px;
-	height: 145px;
-	right: 230px;
-	top: 170px;
-	overflow: hidden;
+  position: absolute;
+	top: 50px;
+	right: 120px;
+  width: 220px;
+  height: 160px;
 }
 
 html {
@@ -167,26 +167,22 @@ html {
   }
 
   article img {
-    mix-blend-mode: normal;
     position: absolute;
-    width: 200px;
-    height: 145px;
-    right: 100px;
-    top: 170px;
-    overflow: hidden;
+	top: 50px;
+	right: 100px;
+  width: 220px;
+  height: 160px;
   }
 }
 
 @media all and (max-width: 759px) {
 
   article img {
-    mix-blend-mode: normal;
     position: absolute;
-    width: 150px;
-    height: 105px;
-    right: 100px;
-    top: 170px;
-    overflow: hidden;
+	top: 50px;
+	right: 90px;
+  width: 180px;
+  height: 125px;
   }
 }
 
@@ -218,13 +214,11 @@ html {
   }
 
   article img {
-    mix-blend-mode: normal;
     position: absolute;
-    width: 150px;
-    height: 105px;
-    right: 100px;
-    top: 170px;
-    overflow: hidden;
+	top: 50px;
+	right: 60px;
+  width: 180px;
+  height: 125px;
   }
 
 }

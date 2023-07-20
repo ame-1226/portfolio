@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A&S Portfolio</title>
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,8 +34,8 @@
                 <h2>Works</h2>
                 <div class="square">
                  <ul>
-                   <li><img src="images/trump_2207.png" alt="トランプ"></li>
-                   <li><img src="images/card_zentai_w.jpg" alt="あつめろ！シマエナガ！！"></li>
+                   <li><a href="images/trump_2207.png" data-lightbox="Works" data-title="トランプ"><img src="images/trump_2207.png" alt="トランプ"></a></li>
+                   <li><a href="images/card_zentai_w.jpg" data-lightbox="Works" data-title="あつめろ！シマエナガ！！"><img src="images/card_zentai_w.jpg" alt="あつめろ！シマエナガ！！"></a></li>
                  </ul>
                  <span>
                    <li><a href="works.d2.html">more</a></li>
@@ -44,8 +45,8 @@
                 <h2>Illust</h2>
                 <div class="square">
                   <ul>
-                   <li><a><img src="images/hunanori_mini.png" alt="船乗り"></a></li>
-                   <li><img src="images/sorafurasuko.png" alt="空色フラスコ"></li>
+                   <li><a href="images/hunanori_mini.png" data-lightbox="Illust" data-title="船乗り"><img src="images/hunanori_mini.png" alt="船乗り"></a></li>
+                   <li><a href="images/sorafurasuko.png" data-lightbox="Illust" data-title="空色フラスコ"><img src="images/sorafurasuko.png" alt="空色フラスコ"></a></li>
                   </ul>
                 </div>
                 <span>
@@ -58,6 +59,9 @@
             <p>&copy; Sakai_Portforio </p>
         </footer>
         <a href="#" class="pagetop">▲</a>
-      </div><!-- #wrap-->  
+      </div><!-- #wrap-->
+      
+      <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+      <script src="js/lightbox.min.js"></script>
 </body>
 </html>
